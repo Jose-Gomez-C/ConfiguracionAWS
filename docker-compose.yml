@@ -11,7 +11,7 @@ services:
        ports:
             - "8080:6000"
     web:
-        image: josegomezcamacho/tallerarep5balaceloader
+        image: josegomezcamacho/tallerarep5web
         depends_on:
             - db
         ports:
